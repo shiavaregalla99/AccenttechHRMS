@@ -21,6 +21,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 	public static WebDriver driver;
+	//shiva changes
+	
 	public static ExtentHtmlReporter htmlReport;
 	public static ExtentReports report;
 	public static ExtentTest test;

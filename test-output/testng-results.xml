@@ -1,81 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="2" total="4" passed="1">
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="22914" started-at="2021-04-25T14:32:58Z" finished-at="2021-04-25T14:33:21Z">
+  <suite name="Suite" duration-ms="32956" started-at="2021-05-02T15:57:03Z" finished-at="2021-05-02T15:57:36Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="22914" started-at="2021-04-25T14:32:58Z" finished-at="2021-04-25T14:33:21Z">
+    <test name="Test" duration-ms="32956" started-at="2021-05-02T15:57:03Z" finished-at="2021-05-02T15:57:36Z">
       <class name="com.accenttech.hrms.testCases.Test_001">
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.accenttech.hrms.testCases.Test_001@146ba0ac]" name="generateReport" is-config="true" duration-ms="281" started-at="2021-04-25T14:32:58Z" finished-at="2021-04-25T14:32:59Z">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.accenttech.hrms.testCases.Test_001@146ba0ac]" name="generateReport" is-config="true" duration-ms="477" started-at="2021-05-02T15:57:03Z" finished-at="2021-05-02T15:57:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.accenttech.hrms.testCases.Test_001@146ba0ac]" name="setUp" is-config="true" duration-ms="7457" started-at="2021-04-25T14:32:59Z" finished-at="2021-04-25T14:33:06Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.accenttech.hrms.testCases.Test_001@146ba0ac]" name="setUp" is-config="true" duration-ms="21247" started-at="2021-05-02T15:57:03Z" finished-at="2021-05-02T15:57:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="invalidCredentials()[pri:0, instance:com.accenttech.hrms.testCases.Test_001@146ba0ac]" name="invalidCredentials" duration-ms="1935" started-at="2021-04-25T14:33:06Z" finished-at="2021-04-25T14:33:08Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[titles are not matched here expected [Invalid credential] but found [Invalid credentials]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: titles are not matched here expected [Invalid credential] but found [Invalid credentials]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at com.accenttech.hrms.testCases.Test_001.invalidCredentials(Test_001.java:55)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidCredentials -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.accenttech.hrms.testCases.Test_001@146ba0ac]" name="tearDown" is-config="true" duration-ms="822" started-at="2021-04-25T14:33:08Z" finished-at="2021-04-25T14:33:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.accenttech.hrms.testCases.Test_001@146ba0ac]" name="setUp" is-config="true" duration-ms="6353" started-at="2021-04-25T14:33:09Z" finished-at="2021-04-25T14:33:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.accenttech.hrms.testCases.Test_001@146ba0ac]" name="validLogin" duration-ms="4141" started-at="2021-04-25T14:33:15Z" finished-at="2021-04-25T14:33:20Z">
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.accenttech.hrms.testCases.Test_001@146ba0ac]" name="validLogin" duration-ms="9059" started-at="2021-05-02T15:57:25Z" finished-at="2021-05-02T15:57:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.accenttech.hrms.testCases.Test_001@146ba0ac]" name="tearDown" is-config="true" duration-ms="978" started-at="2021-04-25T14:33:20Z" finished-at="2021-04-25T14:33:21Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.accenttech.hrms.testCases.Test_001@146ba0ac]" name="tearDown" is-config="true" duration-ms="943" started-at="2021-05-02T15:57:34Z" finished-at="2021-05-02T15:57:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="writeReport()[pri:0, instance:com.accenttech.hrms.testCases.Test_001@146ba0ac]" name="writeReport" is-config="true" duration-ms="497" started-at="2021-04-25T14:33:21Z" finished-at="2021-04-25T14:33:21Z">
+        <test-method status="PASS" signature="writeReport()[pri:0, instance:com.accenttech.hrms.testCases.Test_001@146ba0ac]" name="writeReport" is-config="true" duration-ms="891" started-at="2021-05-02T15:57:35Z" finished-at="2021-05-02T15:57:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeReport -->

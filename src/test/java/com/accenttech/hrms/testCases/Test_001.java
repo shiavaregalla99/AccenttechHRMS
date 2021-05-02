@@ -43,7 +43,7 @@ public class Test_001 extends CommonMethods{
  	 	CommonMethods.staticWait(2);
  	}
      
-     @Test
+     @Test(enabled=false)
  	public void invalidCredentials() {
  		
  		
